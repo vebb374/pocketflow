@@ -1,8 +1,11 @@
 title: PocketFlow Documentation
-description: Documentation for the PocketFlow assessment system
+description: Automated Testing Framework for Online Technical Assessments
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://vebb374.github.io/pocketflow
+
+aux_links:
+  Repository: https://github.com/vebb374/pocketflow
 
 # Enable or disable the site search
 search_enabled: true
