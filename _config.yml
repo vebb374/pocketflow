@@ -1,8 +1,44 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: PocketFlow Documentation
+description: Documentation for the PocketFlow assessment system
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Enable or disable the site search
+search_enabled: true
+
+# Set heading anchor links
+heading_anchors: true
+
+# Enable just-the-docs collections
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+# Define the structure for navigation
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/The-Pocket/PocketFlow
+
+# Enable ordered lists in the navigation
+nav_sort: case_sensitive
+
+# Set a path for your collections
+collections_dir: .
+
+# Define the navigation structure
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      layout: "page"
+
+# Enable mermaid diagram support
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
+
+# For copy button on code
+enable_copy_code_button: true
